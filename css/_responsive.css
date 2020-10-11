@@ -1,0 +1,209 @@
+@media (max-width: 576px) {
+    .logo{
+        margin-left: -3rem;
+    }
+    .logo img{
+        margin-top: 0.2rem !important;
+    }
+    .header{
+        width: 100%;
+        height: 100vh;
+        background: linear-gradient(to bottom, rgba(17, 12, 12, 0.445),rgba(19, 13, 13, 0.445)), url(../images/banner.jpg) no-repeat center/cover !important;
+    }
+    .nave{
+        display: block !important;
+    }
+    .mobile-manu{
+        margin-top: -2.6rem;
+        cursor: pointer;
+        float: right !important;
+        display: block !important;
+    }
+    #mobile{
+        margin-top: -1rem;
+        z-index: 1000000000;
+        /*margin-top: 4rem;
+        */transition: 0.5s all;
+        -webkit-transition: 0.5s all;
+        -moz-transition: 0.5s all;
+        -ms-transition: 0.5s all;
+        -o-transition: 0.5s all;
+    }
+    #mobile li{
+        display: block;
+        padding: 0.4rem 2rem;
+    }
+    .header-to-text{
+        display: none;
+    }
+    .heading{
+        display: none;
+    }
+    .herro .pragraph{
+       display: none;
+    }
+    .herro{
+        display: none;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 10vh !important;
+    }
+    .work-my{
+        display: none;
+    }
+    .filter-btn button{
+        font-size: 0.6rem;
+        display: inline-block !important;
+        font-weight: bold;
+    }
+    .filter-btn > .filter.act{
+    color: brown !important;
+    border-bottom: 0.1rem solid brown !important;
+    }
+    .about-text{
+        text-align: center;
+    }
+    .about-text h3{
+        font-size: 1rem;
+        font-weight: bold;
+    }
+    .about-text h4{
+        font-size: 1rem;
+        font-weight: bold;
+    }
+    .about-text p{
+        text-align: justify;
+    }
+    .fa-github-alt{
+        display: none;
+    }
+    .contact{
+        margin-top: -3rem;
+        font-size: 1.6rem;
+        padding: 2rem 0 3rem 0;
+    }
+    .form-img{
+        margin-bottom: -4rem;
+    }
+    .form-group{
+        width: 100%;
+    }
+    .input{
+        height: 2rem;
+        font-size: 1rem;
+        padding-left: 0.2rem;
+        width: 100% !important;
+    }
+    #message{
+        width: 100% !important;
+        height: 3.5rem !important;
+    }
+    .submite{
+        border: none;
+        outline: none;
+        border-radius: 5rem;
+        padding: 0.4rem 1rem;
+        -webkit-border-radius: 5rem;
+        -moz-border-radius: 5rem;
+        -ms-border-radius: 5rem;
+        -o-border-radius: 5rem;
+        font-size: 1rem;
+        font-weight: bold;
+    }
+    .website{
+        padding: 0.5rem 0;
+        font-size: 1.3rem;
+        font-weight: bold;
+    }
+    .websitdev{
+        padding: 0.5rem 0;
+        font-size: 1.3rem;
+        font-weight: bold;
+    }
+}
+@media (max-width: 768px) {
+    .logo img{
+        margin-top: 0.2rem;
+        display: inline-block;
+    }
+    .header{
+        width: 100%;
+        height: 100vh;
+        background: linear-gradient(to bottom, rgba(17, 12, 12, 0.568),rgba(17, 12, 12, 0.568)), url(../images/banner.jpg) no-repeat center/cover !important;
+    }
+    .nave{
+        display: block !important;
+    }
+    .mobile-manu{
+        margin-top: -2rem;
+        cursor: pointer;
+        float: right !important;
+        display: block !important;
+    }
+    #mobile{
+        width: 100%;
+        margin-top: -1rem;
+        /*margin-top: 4rem;
+        */transition: 0.5s all;
+        background-color: rgb(241, 241, 241);
+        -webkit-transition: 0.5s all;
+        -moz-transition: 0.5s all;
+        -ms-transition: 0.5s all;
+        -o-transition: 0.5s all;
+    }
+    #mobile li{
+        display: block !important;
+        padding: 1rem 4rem;
+    }
+    .header-to-text{
+        font-weight: bold;
+        color: #fff;
+        font-size: 1.3rem !important;
+    }
+    .heading{
+        color: #fff;
+        font-size: 1.3rem !important;
+    }
+    .herro .pragraph{
+        color: #fff;
+        padding-right: 2rem;
+        font-size: 0.8rem !important;
+    }
+    .contact{
+        margin-top: -3rem;
+        font-size: 1.6rem;
+        padding: 2rem 0 3rem 0;
+    }
+    .user{
+        width: 100%;
+        height: auto;
+        margin-top: 20%;
+    }
+    #contactForm{
+        margin-top: -14%;
+    }
+    .form-group{
+        width: 100%;
+    }
+    .input{
+        height: 2rem;
+        font-size: 1rem;
+        padding-left: 0.2rem;
+        width: 100% !important;
+    }
+    #message{
+        width: 100% !important;
+        height: 3.5rem !important;
+    }
+}
+@media (min-width: 992px) {
+    .contact{
+        margin-bottom: -6rem;
+    }
+}
+@media (min-width: 1200px) {
+    .contact{
+        margin-bottom: -6rem;
+    }
+}

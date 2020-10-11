@@ -1,0 +1,613 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Portfolio</title>
+    <!-- css -->
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/venobox.min.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/LineIcons.css">
+    <link rel="stylesheet" href="css/fontawesome.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="images/logo-01.png" type="image/x-icon">
+</head>
+<body>
+    <!-- home -->
+    <div class="header">
+        <nav class="nave">
+            <div class="logo"><img src="images/logo-01.png" alt="logo"></div>
+            <div class="mobile-manu" onclick="mobile()">
+                <div class="manu-item"></div>
+                <div class="manu-item"></div>
+                <div class="manu-item"></div>
+            </div>
+            <ul id="mobile">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Work</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#" class="heirme" class="btn btn-danger" data-toggle="modal" data-target="#form">Hire Me!</a></li>
+                <!-- Forem-start -->
+                  <div class="modal fade" id="form" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered" role="document">
+                      <div class="modal-content">
+                        <div class="modal-header border-bottom-0">
+                          <h5 class="modal-title text-center" id="exampleModalLabel">Contact Me</h5>
+                          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                          </button>
+                        </div>
+                        <form action="https://formspree.io/mbjzpnnn" method="POST" target="_blank">
+                          <div class="modal-body">
+                            <div class="form-group">
+                                <label for="name">Enter Your Name</label>
+                              <input type="text" class="form-control" id="name" aria-describedby="nam" placeholder="Enter Name" required>
+                            </div>
+                            <div class="form-group">
+                              <label for="email1">Email address</label>
+                              <input type="email" class="form-control" id="email1" aria-describedby="emailHelp" placeholder="Enter email" required>
+                            </div>
+                            <div class="form-group">
+                                <textarea type="text" id="form8" class="md-textarea form-control" rows="3" required></textarea>
+                            </div>
+                          </div>
+                          <div class="modal-footer border-top-0 d-flex justify-content-center">
+                            <button type="submit" class="btn btn-success">Submit</button>
+                          </div>
+                        </form>
+                      </div>
+                    </div>
+                  </div>
+                 <!-- Forem-end -->
+            </ul>
+        </nav>
+        <div class="container">
+            <div class="row herro">
+            <div class="col col-sm-0 col-md-6 col-xl-6"></div>
+            <div class="col-12 pl-5 col-sm-12 col-md-6 col-xl-6">
+                <h2 class="header-to-text font-weight-bold">Hello, I’m Emet</h2>
+                <h2 class="heading font-weight-bold">Expert in Web 
+                    Design & Development</h2>
+                <p class="pt-sm-1 pragraph">Currently available for select projects, collaborations and consulting.Currently available for select projects, collaborations and consulting.</p>
+                <a href="#portfolio" class="btn-bg work-my">See My work</a>
+            </div>
+            </div>
+    </div>
+    </div>                      
+    <!-- service -->
+
+    <section class="container">
+        <div class="section-header p-2 count text-center">
+            <h1>Service</h1>
+        </div>
+        <div class="row pb-5 text-center">
+            <div class="col-12 col-sm-6 col-md-6 srvice-items  col-xl-3 ">
+                    <i class="lni lni-laptop-phone lni-32"></i>
+                <h3>Web design</h3>
+                <p>consectetur adipisicing elit. Tenetur labore nesciunt alias iste provident accusamus sint? Ea excepturi numquam corporis iure repellat cumque, animi voluptas architecto eveniet neque nihil vitae.</p>
+            </div>
+            <div class="col-12 col-sm-6 mt-sm-2 col-md-6 srvice-items col-xl-3">
+                    <i class="lni lni-php lni-32"></i>
+                <h3>Web Development</h3>
+                <p>consectetur adipisicing elit. Tenetur labore nesciunt alias iste provident accusamus sint? Ea excepturi numquam corporis iure repellat cumque, animi voluptas architecto eveniet neque nihil vitae.</p>
+            </div>
+            <div class="col-12 col-sm-6 mt-sm-2 col-md-6 srvice-items col-xl-3">
+                <i class="lni lni-mobile lni-32"></i>
+                <h3>App Development</h3>
+                <p>consectetur adipisicing elit. Tenetur labore nesciunt alias iste provident accusamus sint? Ea excepturi numquam corporis iure repellat cumque, animi voluptas architecto eveniet neque nihil vitae.</p>
+            </div>
+            <div class="col-12 col-sm-6 mt-sm-2 col-md-6 srvice-items col-xl-3">
+                <i class="lni lni-layout lni-32"></i>
+                <h3>UX|UI</h3>
+                <p>consectetur adipisicing elit. Tenetur labore nesciunt alias iste provident accusamus sint? Ea excepturi numquam corporis iure repellat cumque, animi voluptas architecto eveniet neque nihil vitae.</p>
+            </div>
+        </div>
+
+    </section>
+    <!-- skils-start -->
+    <div class="container">
+        <div class="row p-3">
+               <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
+               <h2 class="text-center font-weight-bold">My Skills</h2>
+               <br>
+               <!-- Skill Bars -->
+               <div class="skill-item">
+                   <span>Web Design</span>
+                   <div class="progress skill-bar ">
+                       <div class="progress-bar web-skill progress-bar-primary" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100">  
+                    </div>
+                </div>
+            </div>
+            <div class="skill-item pt-2">
+                    <span>Web Development</span>
+                <div class="progress skill-bar">
+                    <div class="progress-bar webdev-skill progress-bar-primary" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
+                    </div>
+                </div>   
+            </div>               
+            <div class="skill-item pt-2">
+                    <span>App Development</span>
+                <div class="progress skill-bar">
+                    <div class="progress-bar app-skill progress-bar-primary" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
+                    </div>
+                </div>   
+            </div>               
+       </div>
+       <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
+        <h2 class="text-center website font-weight-bold">Web Design</h2>
+       <img src="images/web-gig.png" alt="website frame" class="skil-web p-2">
+       </div>
+       <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
+        <h2 class="text-center websitdev font-weight-bold">Web Development</h2>
+        <img src="images/webdevelopment .png" alt="webdevelopment" class="skil-webdev p-2">
+       
+       </div>
+   </div>  
+   </div>    
+    <!-- skils-end -->
+    <!-- Portfolio-start -->
+    <section class="portfolio" id="portfolio">
+    <div class="Portfolio container">
+        <div class="section-header count text-center">
+            <h1>Portfoilo</h1>
+        </div>
+        <div class="filter-btn text-center">
+        <button class="filter act" data-filter=".all">All Category</button>
+        <button class="filter" data-filter=".category-1">Web Design</button>
+        <button class="filter" data-filter=".category-2">
+          Web Development
+        </button>
+        <button class="filter" data-filter=".category-3">
+          App Development
+        </button>
+    </div>
+        <div class="row file portfolio-items">
+            <div class="col-12 col-sm-6 col-md-4 mt-2 col-lg-4 col-xl-4 portfolio-item mix category-3 all" data-my-order="1">
+              <div class="port-img">
+                  <img src="images/psd-01-short.jpg" alt="portfolio">
+                </div>
+                <div class="overlay">
+                    <a href="images/psd-01.jpg" class="venobox" data-gall="gallery01" data-title="Psd one design for responsive">
+                    <i class="fas fa-search-plus"></i>
+                </a>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 mt-2 col-lg-4 col-xl-4 portfolio-item mix category-1 all" data-my-order="2">
+                <img src="images/psd-02-short.jpg" alt="portfolio">
+                <div class="overlay">
+                    <a href="images/psd-02.jpg" class="venobox" data-gall="gallery01" data-title="Psd two design for responsive">
+                    <i class="fas fa-search-plus"></i>
+                </a>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 mt-2 col-lg-4 col-xl-4 portfolio-item mix category-3 all" data-my-order="3">
+                <img src="images/psd-03-short.jpg" alt="portfolio">
+                <div class="overlay">
+                    <a href="images/psd-03.jpg" class="venobox" data-gall="gallery01" data-title="Psd Three design for responsive">
+                    <i class="fas fa-search-plus"></i>
+                </a>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 mt-2 col-lg-4 col-xl-4 mt-4 portfolio-item mix category-2 all" data-my-order="4">
+                <img src="images/psd-04-short.jpg" alt="portfolio">
+                <div class="overlay">
+                    <a href="images/psd-04.jpg"class="venobox" data-gall="gallery01" data-title="Psd Four design for responsive">
+                    <i class="fas fa-search-plus"></i>
+                </a>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-4 col-xl-4 mt-4 portfolio-item mix category-2 all" data-my-order="5">
+                <img src="images/psd-05-short.jpg" alt="portfolio">
+                <div class="overlay">
+                    <a href="images/psd-05.jpg" class="venobox" data-gall="gallery01" data-title="Psd Five design for responsive">
+                    <i class="fas fa-search-plus"></i>
+                </a>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-4 col-xl-4 mt-4 portfolio-item mix category-3 all" data-my-order="6">
+                <img src="images/psd-06-short.jpg" alt="portfolio">
+                <div class="overlay">
+                    <a href="images/psd-06.jpg" class="venobox" data-gall="gallery01" data-title="Psd Six design for responsive">
+                    <i class="fas fa-search-plus"></i>
+                </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+    <!-- Portfolio-end -->
+    <!-- client-start -->
+    <section class="client container">
+        <div class="container">
+            <div class="row text-center count">
+                <div class="col-12 p-2">
+                    <h1>Client</h1>
+                </div>
+            </div>
+            <div class="owl-carousel owl-theme wow fadeInUp" data-wow-delay="1s">
+                <div class="item">
+                    <div class="testimonial-item">
+                        <div class="img-thumb">
+                            <img src="images/client-01.png" alt="David">
+                        </div>
+                        <div class="info">
+                            <h2>
+                                <a href="#">David</a>
+                            </h2>
+                        </div>
+                        <div class="content">
+                            <div class="description">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi soluta assumenda, itaque earum, consectetur consequatur iure amet! Numquam, odio earum!</p>
+                            </div>
+                            <div class="star-icon">
+                                <span>
+                                    <i class="lni lni-star-filled"></i>
+                                </span>
+                                <span>
+                                    <i class="lni lni-star-filled"></i>
+                                </span>
+                                <span>
+                                    <i class="lni lni-star-filled"></i>
+                                </span>
+                                <span>
+                                    <i class="lni lni-star-filled"></i>
+                                </span>
+                                <span>
+                                    <i class="lni lni-star-filled"></i>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="testimonial-item">
+                        <div class="img-thumb">
+                            <img src="images/client-02.jpg" alt="Smith">
+                        </div>
+                        <div class="info">
+                            <h2>
+                                <a href="#">Smith</a>
+                            </h2>
+                        </div>
+                        <div class="content">
+                            <div class="description">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi soluta assumenda, itaque earum, consectetur consequatur iure amet! Numquam, odio earum!</p>
+                            </div>
+                            <div class="star-icon">
+                                <span>
+                                    <i class="lni lni-star-filled"></i>
+                                </span>
+                                <span>
+                                    <i class="lni lni-star-filled"></i>
+                                </span>
+                                <span>
+                                    <i class="lni lni-star-filled"></i>
+                                </span>
+                                <span>
+                                    <i class="lni lni-star-filled"></i>
+                                </span>
+                                <span>
+                                    <i class="lni lni-star-filled"></i>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="testimonial-item">
+                        <div class="img-thumb">
+                            <img src="images/client-03.jpg" alt="Florian">
+                        </div>
+                        <div class="info">
+                            <h2>
+                                <a href="#">Florian</a>
+                            </h2>
+                        </div>
+                        <div class="content">
+                            <div class="description">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi soluta assumenda, itaque earum, consectetur consequatur iure amet! Numquam, odio earum!</p>
+                            </div>
+                            <div class="star-icon">
+                                <span>
+                                    <i class="lni lni-star-filled"></i>
+                                </span>
+                                <span>
+                                    <i class="lni lni-star-filled"></i>
+                                </span>
+                                <span>
+                                    <i class="lni lni-star-filled"></i>
+                                </span>
+                                <span>
+                                    <i class="lni lni-star-filled"></i>
+                                </span>
+                                <span>
+                                    <i class="lni lni-star-half"></i>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="testimonial-item">
+                        <div class="img-thumb">
+                            <img src="images/client-04.jpg" alt="Max">
+                        </div>
+                        <div class="info">
+                            <h2>
+                                <a href="#">Max</a>
+                            </h2>
+                        </div>
+                        <div class="content">
+                            <div class="description">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi soluta assumenda, itaque earum, consectetur consequatur iure amet! Numquam, odio earum!</p>
+                            </div>
+                            <div class="star-icon">
+                                <span>
+                                    <i class="lni lni-star-filled"></i>
+                                </span>
+                                <span>
+                                    <i class="lni lni-star-filled"></i>
+                                </span>
+                                <span>
+                                    <i class="lni lni-star-filled"></i>
+                                </span>
+                                <span>
+                                    <i class="lni lni-star-filled"></i>
+                                </span>
+                                <span>
+                                    <i class="lni lni-star-filled"></i>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="testimonial-item">
+                        <div class="img-thumb">
+                            <img src="images/client-05.jpg" alt="ALBERT">
+                        </div>
+                        <div class="info">
+                            <h2>
+                                <a href="#">ALBERT</a>
+                            </h2>
+                        </div>
+                        <div class="content">
+                            <div class="description">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi soluta assumenda, itaque earum, consectetur consequatur iure amet! Numquam, odio earum!</p>
+                            </div>
+                            <div class="star-icon">
+                                <span>
+                                    <i class="lni lni-star-filled"></i>
+                                </span>
+                                <span>
+                                    <i class="lni lni-star-filled"></i>
+                                </span>
+                                <span>
+                                    <i class="lni lni-star-filled"></i>
+                                </span>
+                                <span>
+                                    <i class="lni lni-star-filled"></i>
+                                </span>
+                                <span>
+                                    <i class="fas fa-star-half"></i>
+                                </span>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="testimonial-item">
+                        <div class="img-thumb">
+                            <img src="images/client-06.jpg" alt="ALBERT">
+                        </div>
+                        <div class="info">
+                            <h2>
+                                <a href="#">Josef Jon</a>
+                            </h2>
+                        </div>
+                        <div class="content">
+                            <div class="description">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi soluta assumenda, itaque earum, consectetur consequatur iure amet! Numquam, odio earum!</p>
+                            </div>
+                            <div class="star-icon">
+                                <span>
+                                    <i class="lni lni-star-filled"></i>
+                                </span>
+                                <span>
+                                    <i class="lni lni-star-filled"></i>
+                                </span>
+                                <span>
+                                    <i class="lni lni-star-filled"></i>
+                                </span>
+                                <span>
+                                    <i class="lni lni-star-filled"></i>
+                                </span>
+                                <span>
+                                    <i class="fas fa-star-half"></i>
+                                </span>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="testimonial-item">
+                        <div class="img-thumb">
+                            <img src="images/client-07.png" alt="ALBERT">
+                        </div>
+                        <div class="info">
+                            <h2>
+                                <a href="#">ALBERT</a>
+                            </h2>
+                        </div>
+                        <div class="content">
+                            <div class="description">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi soluta assumenda, itaque earum, consectetur consequatur iure amet! Numquam, odio earum!</p>
+                            </div>
+                            <div class="star-icon">
+                                <span>
+                                    <i class="lni lni-star-filled"></i>
+                                </span>
+                                <span>
+                                    <i class="lni lni-star-filled"></i>
+                                </span>
+                                <span>
+                                    <i class="lni lni-star-filled"></i>
+                                </span>
+                                <span>
+                                    <i class="lni lni-star-filled"></i>
+                                </span>
+                                <span>
+                                    <i class="fas fa-star-half"></i>
+                                </span>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="testimonial-item">
+                        <div class="img-thumb">
+                            <img src="images/client-08.png" alt="ALBERT">
+                        </div>
+                        <div class="info">
+                            <h2>
+                                <a href="#">Domani</a>
+                            </h2>
+                        </div>
+                        <div class="content">
+                            <div class="description">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi soluta assumenda, itaque earum, consectetur consequatur iure amet! Numquam, odio earum!</p>
+                            </div>
+                            <div class="star-icon">
+                                <span>
+                                    <i class="lni lni-star-filled"></i>
+                                </span>
+                                <span>
+                                    <i class="lni lni-star-filled"></i>
+                                </span>
+                                <span>
+                                    <i class="lni lni-star-filled"></i>
+                                </span>
+                                <span>
+                                    <i class="lni lni-star-filled"></i>
+                                </span>
+                                <span>
+                                    <i class="fas fa-star-half"></i>
+                                </span>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+       </div> 
+</section>
+    <!-- client-end -->
+    <!-- project-done-start -->
+    <div class="container p-3 my-work">
+        <div class="row text-center">
+            <div class="col-12 p-4 count"> 
+                <h1>My Work</h1>
+            </div>
+        </div>
+        <div class="row wow slideInLeft">
+            <div class="counter_items text-center col-12 col-sm-6 col-md-3 col-lg-3 col-xl-3">
+                <i class="fas fa-rocket fa-2x"></i>
+                <h2 class="counter"> 1000</h2>
+                <h6>Project</h6>
+            </div>
+            <div class="counter_items text-center col-12 col-sm-6 col-md-3 col-lg-3 col-xl-3">
+                <i class="fas fa-users fa-2x"></i>
+                <h2 class="counter"> 150</h2>
+                <h6>Happy Client</h6>
+            </div>
+            <div class="counter_items text-center col-12 col-sm-6 col-md-3 col-lg-3 col-xl-3">
+                <i class="lni lni-mobile fa-2x"></i>
+                <h2 class="counter"> 700</h2>
+            <h6>Web Design</h6>
+        </div>
+        <div class="counter_items text-center col-12 col-sm-6 col-md-3 col-lg-3 col-xl-3">
+            <i class="lni lni-database fa-2x"></i>
+            <h2 class="counter"> 300</h2>
+            <h6>Web Development</h6>
+        </div>
+    </div>
+</div>
+    <!-- project-done-end -->
+    <!-- about-start -->
+    <div class="about-me container p-4">
+        <div class="section-header count text-center">
+            <h1>About Me</h1>
+        </div>
+        <div class="row">
+            <div class="col-12 col-sm-12 text-center col-md-4 col-lg-4 col-xl-4">
+                <img src="images/user.png" alt="user" class="user">
+            </div>
+            <div class="col-12 col-sm-12 col-md-8 col-lg-8 col-xl-8 about-text">
+                <h3 class="font-weight-bold">Emet Das</h3>
+                <h4 class="font-weight-bold">Web Designer And Developer</h4>
+                <p>My name is Emet Das. I am a web designer and developer. I have three years of experience. All my projects have been successful.I have done 1k+ work on web design and development. web design and web development is my passion.</p>                
+           <div class="socil-icon">
+           <a href="https://web.facebook.com/profile.php?id=100028840303470" target="_blank"><i class="fab fa-facebook-f"></i></a>
+          <a href="https://www.instagram.com/emetdas4/?hl=en" target="_blank"><i class="fab fa-instagram"></i></a>
+           <a href="https://twitter.com/DasEmet" target="_blank"><i class="fab fa-twitter"></i></a>
+          <a href="https://www.linkedin.com/in/emet-das-b16485196/" target="_blank"> <i class="fab fa-linkedin-in"></i></a>
+           <a href="https://www.pinterest.com/emetdas/" target="_blank" ><i class="fab fa-pinterest"></i></a> 
+           <a href="https://github.com/Emet-hub" target="_blank"><i class="fab fa-github-alt"></i></a>
+           </div>
+            </div>
+        </div>
+    </div>
+    <!-- about-end -->
+<!-- contact-and-footer-start -->
+<section class="contact container p-3">
+    <div class="row p-3 text-center">
+        <div class="col-12 p-3 count"> 
+            <h1 class="contact">Contact Me</h1>
+        </div>
+    </div>
+    <div class="row p-3">
+        <div class="col-12 col-sm-6 col-md-6 col-xl-6 p-3 form-img">
+            <img src="images/form-01.png" alt="form">
+        </div>
+        <form action="https://formspree.io/mbjzpnnn" method="POST" target="_blank" id="contactForm" class="col-12 col-sm-12 col-md-6 col-xl-6 p-3">
+            <div class="form-group">
+                <input type="text" placeholder="Name" class="input w-75 pl-2" id="name" required>
+            </div>
+            <div class="form-group">
+                <input type="email" placeholder="Enter Your Email" class="input w-75 pl-2"  id="email" required>
+            </div>
+            <div class="form-group">
+                <textarea type="text" id="message" class="w-75 pl-2"></textarea>
+            </div>
+            <input type="submit" type="submit" class="submite">
+        </form>
+    </div>
+</section>
+<div class="footer text-center bg-dark mt-4 p-4 text-white">
+    <p>© COPYRIGHTS emet. ALL RIGHTS RESERVED.</p>
+</div>
+<!-- contact-and-footer-end -->
+
+    <script src="js/jquery-2.1.0.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/jquery.counterup.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/waypoints.min.js"></script>
+    <script src="js/onepagenav.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/venobox.min.js"></script>
+    <script src="js/jquery.mixitup.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
